@@ -1,0 +1,18 @@
+.approve-button,
+.delete-button {
+  padding: 8px 16px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.approve-button {
+  background-color: green;
+  color: white;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+}

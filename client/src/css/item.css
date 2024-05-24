@@ -1,0 +1,45 @@
+.organization-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .organization-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .organization-item p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  .organization-item .organization-name {
+    font-weight: bold;
+  }
+  
+  .offer-to-help-button,
+.request-submitted-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.offer-to-help-button {
+  background-color: red;
+  color: white;
+}
+
+.offer-to-help-button:hover {
+  background-color: darkred;
+}
+
+.request-submitted-button {
+  background-color: green;
+  color: white;
+}
